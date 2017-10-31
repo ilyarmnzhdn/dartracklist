@@ -9,9 +9,9 @@ $ git clone https://github.com/Dimillian/dartracklist
 ```
 2. Change working directory and install pods
 ```shell
-$cd dartracklist
-$pod init
-$pod install
+$ cd dartracklist
+$ pod init
+$ pod install
 ```
 3. open DarTrackList.xcworkspace
 4. run
