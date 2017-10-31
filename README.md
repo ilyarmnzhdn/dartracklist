@@ -2,7 +2,7 @@
 
 #### DarTrackList - is a simple music player that can download .mp3 files from given json and store them in Core Data. Made for Dar ecosystems.
 
-## installation
+## Installation
 1. clone this repository.
 ```shell
 $ git clone https://github.com/Dimillian/dartracklist
@@ -21,9 +21,12 @@ $pod install
 - Xcode 9
 - Know a little bit of how to program in Swift with the iOS SDK
 
-## features
+## Features
 * Parse tracks from ``` https://vibze.github.io/downloadr-task/tracks.json ```
 * Download parsed tracks to Core Data
+* Cancel downloading tracks
+* Download n tracks per time
+* Delete downloaded tracks from Core Data
 * Play downloaded tracks
 
 ## pods
