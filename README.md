@@ -1,6 +1,6 @@
 ## DarTrackList
 
-#### DarTrackList - is sample media player application that can download mp3 files from given json file and store it in Core Data. Made for Dar ecosystems.
+#### DarTrackList - is a simple music player that can download .mp3 files from given json and store them in Core Data. Made for Dar ecosystems.
 
 ## installation
 1. clone this repository.
