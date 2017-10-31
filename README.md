@@ -25,7 +25,12 @@ $pod install
 1. SwiftyJSON ``` https://github.com/SwiftyJSON/SwiftyJSON ```
 2. Alamofire ``` https://github.com/Alamofire/Alamofire ```
 
-### general info
-Writeen in Swift 4
-iOS 11
-Tested on iPhone 6 Plus
+### faq
+Q: In which language written this project?
+A: Swift 4
+Q: Which version of iOS?
+A: iOS 11
+Q: In which devices tested this project?
+A: Hardware (iPhone 6 Plus), simulator (all version of iPhone).
+Q: Does support iPad?
+A: No.
