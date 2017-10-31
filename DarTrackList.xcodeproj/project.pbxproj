@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181275BF1FA89A38007F3B58 /* UIExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181275BE1FA89A38007F3B58 /* UIExtention.swift */; };
+		181AFCAA1FA8B4EF009F4D9C /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AFCA91FA8B4EF009F4D9C /* Logger.swift */; };
+		182473BE1FA8BB5C009FCDE0 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182473BD1FA8BB5C009FCDE0 /* TrackTableViewCell.swift */; };
+		18310C6E1FA7B0EA0070CC0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18310C6D1FA7B0EA0070CC0E /* AppDelegate.swift */; };
+		18310C761FA7B0EA0070CC0E /* DarTrackList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18310C741FA7B0EA0070CC0E /* DarTrackList.xcdatamodeld */; };
+		18310C781FA7B0EA0070CC0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18310C771FA7B0EA0070CC0E /* Assets.xcassets */; };
+		18310C7B1FA7B0EA0070CC0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18310C791FA7B0EA0070CC0E /* LaunchScreen.storyboard */; };
+		18310C861FA7B0EA0070CC0E /* DarTrackListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18310C851FA7B0EA0070CC0E /* DarTrackListTests.swift */; };
+		18310C911FA7B1A70070CC0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18310C901FA7B1A70070CC0E /* Main.storyboard */; };
+		18310CB41FA7B21D0070CC0E /* TrackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18310CB31FA7B21D0070CC0E /* TrackTableViewController.swift */; };
+		18310CB71FA7B22C0070CC0E /* TrackDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18310CB61FA7B22C0070CC0E /* TrackDataController.swift */; };
+		18310CBF1FA7B3300070CC0E /* Track+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18310CBD1FA7B3300070CC0E /* Track+CoreDataClass.swift */; };
+		18310CC01FA7B3300070CC0E /* Track+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18310CBE1FA7B3300070CC0E /* Track+CoreDataProperties.swift */; };
+		18310CC31FA7C8BA0070CC0E /* TrackProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18310CC21FA7C8BA0070CC0E /* TrackProvider.swift */; };
+		6DA69FC506603E6F34C9625C /* Pods_DarTrackListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2759C4DF562CBBC79B63BC30 /* Pods_DarTrackListTests.framework */; };
+		8562FC82C0DB409A9CEB0F11 /* Pods_DarTrackList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8475AC2E0E0BEC2F8C03DB75 /* Pods_DarTrackList.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18310C821FA7B0EA0070CC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18310C621FA7B0EA0070CC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18310C691FA7B0EA0070CC0E;
+			remoteInfo = DarTrackList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181275BE1FA89A38007F3B58 /* UIExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtention.swift; sourceTree = "<group>"; };
+		181AFCA91FA8B4EF009F4D9C /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		182473BD1FA8BB5C009FCDE0 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		18310C6A1FA7B0EA0070CC0E /* DarTrackList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarTrackList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18310C6D1FA7B0EA0070CC0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18310C751FA7B0EA0070CC0E /* DarTrackList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DarTrackList.xcdatamodel; sourceTree = "<group>"; };
+		18310C771FA7B0EA0070CC0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18310C7A1FA7B0EA0070CC0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18310C7C1FA7B0EA0070CC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18310C811FA7B0EA0070CC0E /* DarTrackListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarTrackListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18310C851FA7B0EA0070CC0E /* DarTrackListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarTrackListTests.swift; sourceTree = "<group>"; };
+		18310C871FA7B0EA0070CC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18310C901FA7B1A70070CC0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18310CB31FA7B21D0070CC0E /* TrackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTableViewController.swift; sourceTree = "<group>"; };
+		18310CB61FA7B22C0070CC0E /* TrackDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackDataController.swift; sourceTree = "<group>"; };
+		18310CBD1FA7B3300070CC0E /* Track+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Track+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18310CBE1FA7B3300070CC0E /* Track+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Track+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18310CC21FA7C8BA0070CC0E /* TrackProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackProvider.swift; sourceTree = "<group>"; };
+		198F039F0F0C8974CD77A53D /* Pods-DarTrackListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarTrackListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarTrackListTests/Pods-DarTrackListTests.release.xcconfig"; sourceTree = "<group>"; };
+		2759C4DF562CBBC79B63BC30 /* Pods_DarTrackListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarTrackListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45503C7CC20BAB1CF7ADE235 /* Pods-DarTrackList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarTrackList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarTrackList/Pods-DarTrackList.debug.xcconfig"; sourceTree = "<group>"; };
+		457A1E4706B257877C3BA36E /* Pods-DarTrackList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarTrackList.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarTrackList/Pods-DarTrackList.release.xcconfig"; sourceTree = "<group>"; };
+		8475AC2E0E0BEC2F8C03DB75 /* Pods_DarTrackList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarTrackList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD4B9B45F90972F3D7D4F5C /* Pods-DarTrackListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarTrackListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarTrackListTests/Pods-DarTrackListTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18310C671FA7B0EA0070CC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8562FC82C0DB409A9CEB0F11 /* Pods_DarTrackList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18310C7E1FA7B0EA0070CC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA69FC506603E6F34C9625C /* Pods_DarTrackListTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181275BD1FA89A25007F3B58 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				181275BE1FA89A38007F3B58 /* UIExtention.swift */,
+				181AFCA91FA8B4EF009F4D9C /* Logger.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		18310C611FA7B0EA0070CC0E = {
+			isa = PBXGroup;
+			children = (
+				18310C6C1FA7B0EA0070CC0E /* DarTrackList */,
+				18310C841FA7B0EA0070CC0E /* DarTrackListTests */,
+				18310C6B1FA7B0EA0070CC0E /* Products */,
+				A10B09E4AD93F932CF0C8B28 /* Pods */,
+				353C8535A6A6BD8B3D6D1C21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18310C6B1FA7B0EA0070CC0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18310C6A1FA7B0EA0070CC0E /* DarTrackList.app */,
+				18310C811FA7B0EA0070CC0E /* DarTrackListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18310C6C1FA7B0EA0070CC0E /* DarTrackList */ = {
+			isa = PBXGroup;
+			children = (
+				18C8CBA41FA8917800605FC0 /* Core */,
+				18310CB81FA7B25C0070CC0E /* Model */,
+				18310CB01FA7B1DB0070CC0E /* ViewModel */,
+				18310CB51FA7B2240070CC0E /* DataController */,
+				18310CB21FA7B2140070CC0E /* ViewController */,
+				18C8CBA51FA8919600605FC0 /* Resource */,
+				181275BD1FA89A25007F3B58 /* Utility */,
+				18310C901FA7B1A70070CC0E /* Main.storyboard */,
+				18310C791FA7B0EA0070CC0E /* LaunchScreen.storyboard */,
+			);
+			path = DarTrackList;
+			sourceTree = "<group>";
+		};
+		18310C841FA7B0EA0070CC0E /* DarTrackListTests */ = {
+			isa = PBXGroup;
+			children = (
+				18310C851FA7B0EA0070CC0E /* DarTrackListTests.swift */,
+				18310C871FA7B0EA0070CC0E /* Info.plist */,
+			);
+			path = DarTrackListTests;
+			sourceTree = "<group>";
+		};
+		18310CB01FA7B1DB0070CC0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				182473BD1FA8BB5C009FCDE0 /* TrackTableViewCell.swift */,
+			);
+			name = ViewModel;
+			path = ../../DarChallenge/DarChallenge;
+			sourceTree = "<group>";
+		};
+		18310CB21FA7B2140070CC0E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18310CB31FA7B21D0070CC0E /* TrackTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		18310CB51FA7B2240070CC0E /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				18310CC21FA7C8BA0070CC0E /* TrackProvider.swift */,
+				18310CB61FA7B22C0070CC0E /* TrackDataController.swift */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		18310CB81FA7B25C0070CC0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18310CBD1FA7B3300070CC0E /* Track+CoreDataClass.swift */,
+				18310CBE1FA7B3300070CC0E /* Track+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18C8CBA41FA8917800605FC0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18310C7C1FA7B0EA0070CC0E /* Info.plist */,
+				18310C6D1FA7B0EA0070CC0E /* AppDelegate.swift */,
+				18310C741FA7B0EA0070CC0E /* DarTrackList.xcdatamodeld */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		18C8CBA51FA8919600605FC0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18310C771FA7B0EA0070CC0E /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		353C8535A6A6BD8B3D6D1C21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8475AC2E0E0BEC2F8C03DB75 /* Pods_DarTrackList.framework */,
+				2759C4DF562CBBC79B63BC30 /* Pods_DarTrackListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10B09E4AD93F932CF0C8B28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45503C7CC20BAB1CF7ADE235 /* Pods-DarTrackList.debug.xcconfig */,
+				457A1E4706B257877C3BA36E /* Pods-DarTrackList.release.xcconfig */,
+				DDD4B9B45F90972F3D7D4F5C /* Pods-DarTrackListTests.debug.xcconfig */,
+				198F039F0F0C8974CD77A53D /* Pods-DarTrackListTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18310C691FA7B0EA0070CC0E /* DarTrackList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18310C8A1FA7B0EA0070CC0E /* Build configuration list for PBXNativeTarget "DarTrackList" */;
+			buildPhases = (
+				340EFEB17F4BCAE95CFA4E67 /* [CP] Check Pods Manifest.lock */,
+				18310C661FA7B0EA0070CC0E /* Sources */,
+				18310C671FA7B0EA0070CC0E /* Frameworks */,
+				18310C681FA7B0EA0070CC0E /* Resources */,
+				A4FF82F13F86EC75E1B52B3B /* [CP] Embed Pods Frameworks */,
+				AF7D54B54B9169B12E8BA587 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarTrackList;
+			productName = DarTrackList;
+			productReference = 18310C6A1FA7B0EA0070CC0E /* DarTrackList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18310C801FA7B0EA0070CC0E /* DarTrackListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18310C8D1FA7B0EA0070CC0E /* Build configuration list for PBXNativeTarget "DarTrackListTests" */;
+			buildPhases = (
+				DA205D554BE99E80208BD8AC /* [CP] Check Pods Manifest.lock */,
+				18310C7D1FA7B0EA0070CC0E /* Sources */,
+				18310C7E1FA7B0EA0070CC0E /* Frameworks */,
+				18310C7F1FA7B0EA0070CC0E /* Resources */,
+				4117CAF6DC8A19C68953DB0F /* [CP] Embed Pods Frameworks */,
+				B5185364F8AD52FC717CCB6A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18310C831FA7B0EA0070CC0E /* PBXTargetDependency */,
+			);
+			name = DarTrackListTests;
+			productName = DarTrackListTests;
+			productReference = 18310C811FA7B0EA0070CC0E /* DarTrackListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18310C621FA7B0EA0070CC0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ilyar Mnazhdin";
+				TargetAttributes = {
+					18310C691FA7B0EA0070CC0E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S4325F4YCU;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					18310C801FA7B0EA0070CC0E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S4325F4YCU;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18310C691FA7B0EA0070CC0E;
+					};
+				};
+			};
+			buildConfigurationList = 18310C651FA7B0EA0070CC0E /* Build configuration list for PBXProject "DarTrackList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18310C611FA7B0EA0070CC0E;
+			productRefGroup = 18310C6B1FA7B0EA0070CC0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18310C691FA7B0EA0070CC0E /* DarTrackList */,
+				18310C801FA7B0EA0070CC0E /* DarTrackListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18310C681FA7B0EA0070CC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18310C911FA7B1A70070CC0E /* Main.storyboard in Resources */,
+				18310C7B1FA7B0EA0070CC0E /* LaunchScreen.storyboard in Resources */,
+				18310C781FA7B0EA0070CC0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18310C7F1FA7B0EA0070CC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		340EFEB17F4BCAE95CFA4E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarTrackList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4117CAF6DC8A19C68953DB0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarTrackListTests/Pods-DarTrackListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4FF82F13F86EC75E1B52B3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DarTrackList/Pods-DarTrackList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarTrackList/Pods-DarTrackList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7D54B54B9169B12E8BA587 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarTrackList/Pods-DarTrackList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5185364F8AD52FC717CCB6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarTrackListTests/Pods-DarTrackListTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA205D554BE99E80208BD8AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarTrackListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18310C661FA7B0EA0070CC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18310CC01FA7B3300070CC0E /* Track+CoreDataProperties.swift in Sources */,
+				18310C761FA7B0EA0070CC0E /* DarTrackList.xcdatamodeld in Sources */,
+				18310CC31FA7C8BA0070CC0E /* TrackProvider.swift in Sources */,
+				18310CB41FA7B21D0070CC0E /* TrackTableViewController.swift in Sources */,
+				18310CB71FA7B22C0070CC0E /* TrackDataController.swift in Sources */,
+				181AFCAA1FA8B4EF009F4D9C /* Logger.swift in Sources */,
+				181275BF1FA89A38007F3B58 /* UIExtention.swift in Sources */,
+				18310C6E1FA7B0EA0070CC0E /* AppDelegate.swift in Sources */,
+				18310CBF1FA7B3300070CC0E /* Track+CoreDataClass.swift in Sources */,
+				182473BE1FA8BB5C009FCDE0 /* TrackTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18310C7D1FA7B0EA0070CC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18310C861FA7B0EA0070CC0E /* DarTrackListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18310C831FA7B0EA0070CC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18310C691FA7B0EA0070CC0E /* DarTrackList */;
+			targetProxy = 18310C821FA7B0EA0070CC0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18310C791FA7B0EA0070CC0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18310C7A1FA7B0EA0070CC0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18310C881FA7B0EA0070CC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18310C891FA7B0EA0070CC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18310C8B1FA7B0EA0070CC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45503C7CC20BAB1CF7ADE235 /* Pods-DarTrackList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4325F4YCU;
+				INFOPLIST_FILE = DarTrackList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyar.DarTrackList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		18310C8C1FA7B0EA0070CC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457A1E4706B257877C3BA36E /* Pods-DarTrackList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4325F4YCU;
+				INFOPLIST_FILE = DarTrackList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyar.DarTrackList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		18310C8E1FA7B0EA0070CC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD4B9B45F90972F3D7D4F5C /* Pods-DarTrackListTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S4325F4YCU;
+				INFOPLIST_FILE = DarTrackListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyar.DarTrackListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarTrackList.app/DarTrackList";
+			};
+			name = Debug;
+		};
+		18310C8F1FA7B0EA0070CC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198F039F0F0C8974CD77A53D /* Pods-DarTrackListTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S4325F4YCU;
+				INFOPLIST_FILE = DarTrackListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyar.DarTrackListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarTrackList.app/DarTrackList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18310C651FA7B0EA0070CC0E /* Build configuration list for PBXProject "DarTrackList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18310C881FA7B0EA0070CC0E /* Debug */,
+				18310C891FA7B0EA0070CC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18310C8A1FA7B0EA0070CC0E /* Build configuration list for PBXNativeTarget "DarTrackList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18310C8B1FA7B0EA0070CC0E /* Debug */,
+				18310C8C1FA7B0EA0070CC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18310C8D1FA7B0EA0070CC0E /* Build configuration list for PBXNativeTarget "DarTrackListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18310C8E1FA7B0EA0070CC0E /* Debug */,
+				18310C8F1FA7B0EA0070CC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18310C741FA7B0EA0070CC0E /* DarTrackList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18310C751FA7B0EA0070CC0E /* DarTrackList.xcdatamodel */,
+			);
+			currentVersion = 18310C751FA7B0EA0070CC0E /* DarTrackList.xcdatamodel */;
+			path = DarTrackList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18310C621FA7B0EA0070CC0E /* Project object */;
+}
