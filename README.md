@@ -34,11 +34,11 @@ $ pod install
 2. Alamofire ``` https://github.com/Alamofire/Alamofire ```
 
 ## faq
-Q: In which language written this project?
-A: Swift 4
-Q: Which version of iOS?
-A: iOS 11
-Q: In which devices tested this project?
-A: Hardware (iPhone 6 Plus), simulator (all version of iPhone).
-Q: Does support iPad?
-A: No.
+*Q: In which language written this project?
+*A: Swift 4
+*Q: Which version of iOS?
+*A: iOS 11
+*Q: In which devices tested this project?
+*A: Hardware (iPhone 6 Plus), simulator (all version of iPhone).
+*Q: Does support iPad?
+*A: No.
