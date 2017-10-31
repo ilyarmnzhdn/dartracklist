@@ -24,8 +24,8 @@ $pod install
 ## Features
 * Parse tracks from ``` https://vibze.github.io/downloadr-task/tracks.json ```
 * Download parsed tracks to Core Data
-* Cancel downloading tracks
 * Download n tracks per time
+* Cancel downloading tracks
 * Delete downloaded tracks from Core Data
 * Play downloaded tracks
 
