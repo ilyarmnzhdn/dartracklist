@@ -17,10 +17,15 @@ $pod install
 4. run
 
 ## features
-1. Parse tracks from ``` https://vibze.github.io/downloadr-task/tracks.json ```
-2. Download parsed tracks to Core Data
-3. Play downloaded tracks
+* Parse tracks from ``` https://vibze.github.io/downloadr-task/tracks.json ```
+* Download parsed tracks to Core Data
+* Play downloaded tracks
 
 ## pods
-1. SwiftyJSON
-2. Alamofire
+1. SwiftyJSON ``` https://github.com/SwiftyJSON/SwiftyJSON ```
+2. Alamofire ``` https://github.com/Alamofire/Alamofire ```
+
+### general info
+Writeen in Swift 4
+iOS 11
+Tested on iPhone 6 Plus
