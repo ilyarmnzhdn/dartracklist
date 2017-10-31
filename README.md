@@ -16,6 +16,11 @@ $pod install
 3. open DarTrackList.xcworkspace
 4. run
 
+## Requirements
+
+- Xcode 9
+- Know a little bit of how to program in Swift with the iOS SDK
+
 ## features
 * Parse tracks from ``` https://vibze.github.io/downloadr-task/tracks.json ```
 * Download parsed tracks to Core Data
@@ -25,7 +30,7 @@ $pod install
 1. SwiftyJSON ``` https://github.com/SwiftyJSON/SwiftyJSON ```
 2. Alamofire ``` https://github.com/Alamofire/Alamofire ```
 
-### faq
+## faq
 Q: In which language written this project?
 A: Swift 4
 Q: Which version of iOS?
