@@ -40,5 +40,5 @@ $ pod install
 * A: iOS 11
 * Q: On which devices tested this project?
 * A: Hardware (iPhone 6 Plus), simulator (all version of iPhone).
-* Q: Does support iPad?
+* Q: Does it support iPad?
 * A: No.
